@@ -36,6 +36,7 @@
             height="60"
           />
         </a>
+        <!--Collape navbar functionality-->
         <button
           class="navbar-toggler"
           type="button"
@@ -70,6 +71,44 @@
         Feel free to look around!
       </h1>
     </div>
+
+    <!--Contact Form-->
+    <form action="">
+      <div class="mb-4">
+        <label for="name" class="form-label">Name: </label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="mb-4">
+        <label for="email" class="form-label">Email: </label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="mb-4">
+        <label for="message" class="form-label">Message: </label>
+        <textarea
+          name="message"
+          class="form-control"
+          id="message"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <div class="mb-4">
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+      </div>
+    </form>
 
     <!--Javascript file-->
     <script
