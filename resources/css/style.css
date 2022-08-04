@@ -1,7 +1,24 @@
+* {
+  font-family: "Roboto", "sans-serif";
+  letter-spacing: 5px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .navbar a {
-  font-size: large;
+  font-size: 1.2rem;
 }
 
 .navbar li {
   padding-right: 15px;
+}
+
+.banner-img {
+  filter: blur(3px);
+}
+
+.hero-section h1 {
+  position: relative;
+  bottom: 35vw;
+  font-size: 3rem;
 }
