@@ -13,7 +13,8 @@
   padding-right: 10px;
 }
 
-.banner-img {
+.banner-img,
+.work-banner-img {
   filter: blur(3px);
 }
 
@@ -21,6 +22,16 @@
   position: relative;
   bottom: 35vw;
   font-size: 3.5vw;
+}
+
+.work-banner {
+  margin-top: 8vw;
+}
+
+.work-banner h2 {
+  position: relative;
+  bottom: 10vw;
+  font-size: 6vw;
 }
 
 #about-me p {
