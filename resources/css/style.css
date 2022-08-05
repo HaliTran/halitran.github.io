@@ -22,3 +22,7 @@
   bottom: 35vw;
   font-size: 3.5vw;
 }
+
+button {
+  width: 15%;
+}
