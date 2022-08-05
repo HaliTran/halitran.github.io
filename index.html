@@ -50,12 +50,16 @@
         </button>
         <div class="collapse navbar-collapse" id="toggleMobileMenu">
           <ul class="navbar-nav ms-auto text-center">
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item">
+              <a href="#about-me" class="nav-link">About</a>
+            </li>
             <li lass="nav-item">
               <a href="#" class="nav-link">Previous Work</a>
             </li>
             <li lass="nav-item"><a href="#" class="nav-link">Projects</a></li>
-            <li lass="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li lass="nav-item">
+              <a href="#contact-me" class="nav-link">Contact</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -74,9 +78,42 @@
       </h1>
     </div>
 
-    <!--Contact Form-->
-    <div class="container">
-      <form action="" class="border bg-light p-4 rounded w-50 m-auto">
+    <!--About Me-->
+    <div id="about-me" class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="./resources/images/hali-about.JPG"
+            alt="Headshot photo of Hali"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6 border p-3 bg-light">
+          <h2>Hali Tran</h2>
+          <h3>Portland, Oregon</h3>
+          <p>
+            Hi, my name Hali and I'm currently a junior at Portland State
+            University studying Computer Science while also working as a Quality
+            Assurance Engineer Intern at Trimble Viewpoint, a Portland local
+            construction software company. With a knack for creatively and
+            problem solving, computer science was the perfect career path that
+            combined the best of these two worlds and ever since realizing this,
+            it has been my field of study. As someone who is always curious and
+            exploring new things, I have a wide range of hobbies outside of tech
+            which include photography, filmmaking, sports, language, and
+            fashion. Although I'm still currently exploring the many different
+            sectors of computer science to find out what I truly want to pursue,
+            I will continue to expand my knowledge and integrate every piece of
+            my learning to find the answer.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Contact Me Form-->
+    <div id="contact-me" class="container mt-5">
+      <!--Maybe add title 'Contact Us'-->
+      <form action="" class="border bg-light p-4 rounded w-75 m-auto">
         <div class="mb-4">
           <label for="name" class="form-label">Name: </label>
           <input
@@ -84,7 +121,7 @@
             class="form-control"
             id="name"
             name="name"
-            placeholder="Enter your name"
+            placeholder="Your Name"
           />
         </div>
         <div class="mb-4">
@@ -94,7 +131,7 @@
             class="form-control"
             id="email"
             name="email"
-            placeholder="Enter your email"
+            placeholder="Your Email Address"
           />
         </div>
         <div class="mb-4">
@@ -103,8 +140,9 @@
             name="message"
             class="form-control"
             id="message"
-            cols="20"
-            rows="10"
+            cols="10"
+            rows="5"
+            placeholder="Your Message Goes Here"
           ></textarea>
         </div>
         <div class="mt-4">

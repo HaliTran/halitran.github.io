@@ -23,6 +23,16 @@
   font-size: 3.5vw;
 }
 
+#about-me p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.image-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 button {
   width: 15%;
 }
