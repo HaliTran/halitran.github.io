@@ -14,24 +14,26 @@
 }
 
 .banner-img,
-.work-banner-img {
+.resume-banner-img {
   filter: blur(3px);
 }
 
 .hero-section h1 {
   position: relative;
-  bottom: 35vw;
+  bottom: 30vw;
   font-size: 3.5vw;
+  color: black;
 }
 
-.work-banner {
-  margin-top: 8vw;
+.resume-banner {
+  margin-top: 9vw;
 }
 
-.work-banner h2 {
+.resume-banner h2 {
   position: relative;
   bottom: 10vw;
   font-size: 6vw;
+  color: black;
 }
 
 #about-me p {
