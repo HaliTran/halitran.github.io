@@ -56,7 +56,9 @@
             <li lass="nav-item">
               <a href="#resume" class="nav-link">Resume</a>
             </li>
-            <li lass="nav-item"><a href="#" class="nav-link">Projects</a></li>
+            <li lass="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
             <li lass="nav-item">
               <a href="#contact-me" class="nav-link">Contact</a>
             </li>
@@ -135,7 +137,7 @@
               System, Program & Problem Solving, Calculus I, II, and III
             </li>
           </ul>
-          <h3>Skills</h3>
+          <h3 class="text-center">Skills</h3>
           <ul>
             <li>HTML5 & CSS, C++ & C#, and Python 3</li>
             <li>
@@ -196,7 +198,7 @@
       </div>
     </div>
 
-    <!-- Projects Section
+    <!--Projects Section-->
     <div id="projects" class="resume-banner">
       <img
         src="./resources/images/hali-resume.jpg"
@@ -204,11 +206,72 @@
         class="resume-banner-img img-fluid"
       />
       <h2 class="text-center">Projects</h2>
-    </div>  -->
+    </div>
+
+    <div class="container">
+      <div class="mb-5">
+        <h3>Braganza Tea</h3>
+        <p>
+          A basic design project to redesign Braganza Tea's website homepage.
+          Braganza Tea is a bubble tea shop located in Portland which I visit
+          frequently. However, after discovering that it had a very unappealing
+          and mundane website design, I took it as an opportunity for me to get
+          creative and apply the learning I had obtained in web design. As I
+          challenge, my goal was to to make it look a bit more professional and
+          elegant using my limited knowledge of design.
+        </p>
+        <span><em>Visit GitHub Repository:</em></span>
+        <a href="https://github.com/HaliTran/braganza_tea" target="_blank"
+          ><img
+            src="./resources/images/github-logo.png"
+            class="img-fluid github-img"
+            alt="Github logo"
+        /></a>
+      </div>
+
+      <div class="mb-5">
+        <h3>Dasmoto's Arts and Crafts</h3>
+        <p>
+          The very first piece of work that I produced on my journey learning
+          HTML & CSS. This project was the first of many projects as part of
+          Codecademy's Web Development Course to ulitlized the skills learned.
+          Specifically, Dasmoto's Arts and Crafts was to gain a familarity with
+          basic HTML tags, structures, how they work, and simple CSS styling.
+        </p>
+        <span><em>Visit GitHub Repository:</em></span>
+        <a
+          href="https://github.com/HaliTran/dasmotos_arts_crafts"
+          target="_blank"
+          ><img
+            src="./resources/images/github-logo.png"
+            class="img-fluid github-img"
+            alt="Github logo"
+        /></a>
+      </div>
+
+      <div class="mb-5">
+        <h3>Monster Game</h3>
+        <p>
+          This project was created as part of Portland State University's CS202
+          Programming Systems course. The goal of Monster Game is to defeat the
+          main monster boss with your own collections of monsters, each with
+          their own unique abilities. Monster Game was created to experience and
+          begin implementing operator overloading with object oriented
+          programming and abstract data types so that the application can treat
+          it as part of the language.
+        </p>
+        <span><em>Visit GitHub Repository:</em></span>
+        <a href="https://github.com/HaliTran/monster_game" target="_blank"
+          ><img
+            src="./resources/images/github-logo.png"
+            class="img-fluid github-img"
+            alt="Github logo"
+        /></a>
+      </div>
+    </div>
 
     <!--Contact Me Form-->
     <div id="contact-me" class="container mt-5">
-      <!--MAYBE ADD TITLE 'Contact Us'-->
       <form action="" id="form" class="border bg-light p-4 rounded w-75 m-auto">
         <div class="mb-4">
           <label for="name" class="form-label">Name: </label>
@@ -218,6 +281,7 @@
             id="name"
             name="name"
             placeholder="Your Name"
+            required
           />
         </div>
         <div class="mb-4">
@@ -228,6 +292,7 @@
             id="email"
             name="email"
             placeholder="Your Email Address"
+            required
           />
         </div>
         <div class="mb-4">
@@ -239,6 +304,7 @@
             cols="10"
             rows="5"
             placeholder="Your Message Goes Here"
+            required
           ></textarea>
         </div>
         <div class="mt-4">

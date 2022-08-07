@@ -46,6 +46,11 @@
   height: auto;
 }
 
+.github-img {
+  width: 10vw;
+  height: 10vh;
+}
+
 button {
   width: 15%;
 }
