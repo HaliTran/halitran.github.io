@@ -1,7 +1,7 @@
 var i = 0;
 var introText = "Hello there, welcome to my website!";
 var introText2 = "Feel free to look around!";
-var typingSpeed = 75;
+var typingSpeed = 80;
 
 function typeWriter() {
   if (i < introText.length) {
