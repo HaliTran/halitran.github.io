@@ -12,8 +12,8 @@ Note: Certain photos on the page may not load due to strange browser behavior an
 
 ## Resources Used
 
-Youtube: https://www.youtube.com/
-Bootstrap 5: https://getbootstrap.com/
-W3Schools: https://www.w3schools.com/
-Github Documentation: https://docs.github.com/en
+Youtube: https://www.youtube.com/ \
+Bootstrap 5: https://getbootstrap.com/ \
+W3Schools: https://www.w3schools.com/ \
+Github Documentation: https://docs.github.com/en \
 MDN Web Docs: https://developer.mozilla.org/en-US/
